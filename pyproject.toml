@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit-core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+
+[project]
+name = "pytmcl_gideonrab"
+version = "0.1.0"
+authors = [
+    { name="Gideon Rabson", email="grabson@pendar.com" },
+]
+
+description = "Python library for automation cells."
+readme = "README.md"
+license = { file="LICENSE" }
+
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft",
+    "Private :: Do Not Upload",
+]
+dependencies =  [
+    "pyserial",
+    "numpy",
+]
+
+[project.urls]
+Source = "http://gitlab.pendar.local/production/automationlib"
